@@ -22,7 +22,6 @@ public class BTmazeAll {
         }
          board[r][c] = false;
         if(r<2){
-            
             paths(board, p+"D", r+1, c);
         }
         if(r>0){
